@@ -1,31 +1,162 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <script src="https://kit.fontawesome.com/34d6a0d023.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.ico">
-    <title>Nervux</title>
-    <meta content="Nervux.me" property="og:title" />
-    <meta content="Nervux's about me page 💀" property="og:description" />
-    <meta content="https://nervux.me/" property="og:url" />
-    <meta content="nervux.png" property="og:image" />
-    <meta content="#44377a" data-react-helmet="true" name="theme-color" />
-  </head>
-  <body>
-    <div class="box">
-      <img src="nervux.png" alt="" class="box-img">
-      <h1>Nervux/Omar</h1>
-      <h5>Certified Memer & Old Gamer</h5>
-      <p>Greetings! I go by Omar, but you can call me Nervux. I'm a 15-year-old who spends most of my time on Discord, hunting down as many memes as I can find. 😄</p>
-      <p>Apart from being a meme connoisseur, I can also code Discord bots, websites, and other nifty things.</p>
-      <p>If you're in the mood for some gaming, feel free to message me on Discord! My username is 'nervux'. I'm always down to play some Brawlhalla or Minecraft. Or, you could simply click on the Discord icon in the 'Socials' section to reach out to me.</p>
-     <b><h6>Socials</h6></b>
-        <ul>
-        <li><a href="https://discord.com/users/633918727594967050"><i class="fab fa-discord" style="color: #ffffff;"></i></i></a></li>
-        <li><a href="https://twitch.tv/omar_nervux/"><i class="fab fa-twitch" style="color: #ffffff;"></i></i></a></li>
-        <li><a href="https://www.youtube.com/channel/UCkq3z5kx41JI2vS-tWqm_3w"><i class="fab fa-youtube"></i></a></li>
-      </ul>
-    </div>
-  </body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta content="Nervux.me" property="og:title" />
+		<meta content="Some general information about Nervux/Omar." property="og:description" />
+		<meta content="https://nervux.me/" property="og:url" />
+		<meta content="assets/img/nervux.png" property="og:image" />
+		<meta content="#44377a" data-react-helmet="true" name="theme-color" />
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="icon" href="assets/img/favicon.ico">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Nervux</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Nervux</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Nervux</span><br> Gamer & Memer</h1>
+
+                  <a href="https://discord.com/users/633918727594967050" class="button">Discord</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/about.jpg"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Nervux</h2>
+                        <p class="about__text">I'm a 15-year-old who spends most of my time on Discord, hunting down as many memes as I can find. Apart from being a meme connoisseur, I can also code Discord bots, websites, and other nifty things.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">General Skills</h2>
+                        <p class="skills__text">I have some basic skills, but probably won't be able to describe it by text. Here's something that may make it more clear, even tho I know you still don't realize what does the word "skill" mean since you have a <b>SKILL</b> issue 🫵😂
+.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-laugh skills__icon'></i>
+                                <span class="skills__name">Meme-ing</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">121%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon'></i>
+                                <span class="skills__name">Coding</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">35%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-discord skills__icon' ></i>
+                                <span class="skills__name">Discord-ing</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">101%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-game skills__icon'></i>
+                                <span class="skills__name">Gaming</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">200%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Nervux</p>
+            <p class="footer__copy">&#169; Omar. No rigths reserved</p>
+        </footer>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
